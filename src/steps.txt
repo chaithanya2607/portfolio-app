@@ -1,0 +1,14 @@
+Create About page
+Mandatory navbar things
+       *About me
+       *Skills
+       *works and projects
+       *contact me
+       *Blog
+
+       *Residence /address
+       *school/college/university
+       
+in contact me-layered social media icons
+starting page-parallax -one photo
+

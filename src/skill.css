@@ -1,0 +1,8 @@
+.skillcards{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    -ms-grid-column-align: center;
+
+    margin-left:120px;
+    margin-right:120px;
+}
