@@ -10,15 +10,25 @@ import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import Button from "@mui/material/Button";
 import { useNavigate } from "react-router-dom";
-import LightModeIcon from "@mui/icons-material/LightMode";
-import DarkModeIcon from "@mui/icons-material/DarkMode";
+import Brightness4Icon from '@mui/icons-material/Brightness4';
+import Brightness7Icon from '@mui/icons-material/Brightness7';
 import { useState } from "react";
 import Avatar from '@mui/material/Avatar';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import { CssBaseline } from "@mui/material";
+
 
 function App() {
   const navigate = useNavigate();
-  const [show, setShow] = useState("<LightModeIcon/>");
+  const [show, setShow] = useState("light");
+  const theme= createTheme({
+    palette: {
+      mode: show,
+    },
+  });
   return (
+     <ThemeProvider theme={theme}>
+      < CssBaseline/>
     <div>
       <AppBar position="static">
         <Toolbar>
@@ -39,12 +49,11 @@ function App() {
             Contact me
           </Button>
           <Button
-          style={{marginLeft:650}}
+          style={{marginLeft:600}}
             color="inherit"
-            onClick={() => setShow(show ? <LightModeIcon /> : <DarkModeIcon />)}
-          >
-            Light Mode
-            <LightModeIcon />
+            onClick={() => setShow(show==="light"?  "dark":"light")}
+          >{show==="light"?  "dark":"light"} Mode 
+            {show=== 'light' ? <Brightness4Icon /> : <Brightness7Icon />}
           </Button>
         </Toolbar>
       </AppBar>
@@ -57,6 +66,7 @@ function App() {
         <Route path="*" element={<Pagenotfound />} />
       </Routes>
     </div>
+    </ThemeProvider>
   );
 }
 export default App;
