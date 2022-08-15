@@ -32,7 +32,7 @@ function App() {
     <div>
       <AppBar position="static">
         <Toolbar>
-        <Avatar alt="Remy Sharp" src="https://media.istockphoto.com/vectors/logo-with-crown-crown-with-c-letter-luxury-concept-vector-id1317765386?k=20&m=1317765386&s=612x612&w=0&h=Z0Yh9ZetygFCasR3I8I2XL1rDCkssZDttI3kxZ2_pdY=" />
+        <Avatar alt="Remy Sharp" src="https://i.pinimg.com/564x/18/5f/f4/185ff44abd0f32015a6ed05d606f09d3.jpg" />
           <Button color="inherit" onClick={() => navigate("/")}>
             Home
           </Button>
