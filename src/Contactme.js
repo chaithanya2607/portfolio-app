@@ -23,7 +23,7 @@ export function Contactme(){
                 <TextField style={{width:500}} id="filled-basic" label="Phone number" variant="filled" /><br></br><br></br>
                 <TextField style={{width:500}} id="filled-basic" label="Description" variant="filled" /><br></br><br></br>
                 <Button style={{width:500}}
-                onClick={()=>Navigate("/")}
+                onClick={()=>Navigate("/contactme")}
                 variant="contained" color="success" id="sub">Submit</Button>
             </div><br></br>
         <Toolbar id="toolbar">
