@@ -29,7 +29,7 @@ function App() {
   return (
      <ThemeProvider theme={theme}>
       < CssBaseline/>
-    <div>
+    <div className="mainpage">
       <AppBar position="static">
         <Toolbar>
         <Avatar alt="Chaithanya" src="https://www.freeiconspng.com/uploads/letter-c-icon-png-4.png" />

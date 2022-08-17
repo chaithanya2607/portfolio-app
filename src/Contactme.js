@@ -18,29 +18,29 @@ export function Contactme(){
            <h1 id="contact">Contact me</h1>
          
         <div className='textfield'>
-                <TextField style={{width:500}} id="filled-basic" label="Enter your name" variant="filled" /><br></br><br></br>
-                <TextField style={{width:500}} id="filled-basic" label="Enter your email" variant="filled" /> <br></br><br></br>
-                <TextField style={{width:500}} id="filled-basic" label="Phone number" variant="filled" /><br></br><br></br>
-                <TextField style={{width:500}} id="filled-basic" label="Description" variant="filled" /><br></br><br></br>
+                <TextField style={{width:"500px"}} id="filled-basic" label="Enter your name" variant="filled" /><br></br>
+                <TextField style={{width:"500px"}} id="filled-basic" label="Enter your email" variant="filled" /> <br></br>
+                <TextField style={{width:"500px"}} id="filled-basic" label="Phone number" variant="filled" /><br></br>
+                <TextField style={{width:"500px"}} id="filled-basic" label="Description" variant="filled" /><br></br><br></br>
                 <Button style={{width:500}}
                 onClick={()=>Navigate("/contactme")}
                 variant="contained" color="primary" id="sub">Submit</Button>
-            </div><br></br>
+            </div><br></br><br></br>
             <div >
             <Toolbar id="toolbar">
-          <Button  id="wel" color="info" >
+          <Button  id="wel" color="inherit" >
           <FacebookIcon id="button1"/>
           </Button>
           <Button  id="wel" color="inherit">
         <GitHubIcon id="button1" />
           </Button>
-          <Button  id="wel" color="primary" >
+          <Button  id="wel" color="inherit" >
            <LinkedInIcon id="button1"/>
           </Button>
-          <Button  id="wel" color="secondary" >
+          <Button  id="wel" color="inherit" >
             <InstagramIcon  id="button1"/>
           </Button>
-          <Button id="wel" color="warning">
+          <Button id="wel" color="inherit">
             <EmailIcon id="button1"/>
           </Button>
         </Toolbar>

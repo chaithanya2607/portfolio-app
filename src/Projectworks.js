@@ -20,7 +20,7 @@ function Workcard(proj){
             <img id="welcome"  src={proj.image} alt={proj.workname}></img>
             <p>{proj.workname}</p>
             <p>{proj.description}</p>
-            <Button color="primary" style={{width:"220px",borderRadius:"5%"}}  variant="contained">Open</Button>
+            <Button id="projbutton" color="primary" style={{width:"220px",borderRadius:"5%"}}  variant="contained">Open</Button>
         </div>
     )
 }

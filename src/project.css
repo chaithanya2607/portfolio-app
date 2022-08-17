@@ -6,7 +6,11 @@
 #welcome{
     width:220px;
     height:150px;
+    border-radius: 5%;
 }
 #projhead{
     margin-left:40%;
+}
+#projbutton:hover{
+background-color: cyan;
 }

@@ -1,5 +1,5 @@
 import './skill.css'
-
+import Button from "@mui/material/Button";
 export function Skills(){
     return(
         <div className='skillset'>
@@ -21,7 +21,7 @@ function Skillcard(ski){
     return(
         <div id="box">
         <h3>{ski.skillname}</h3>
-        <img className='skillimage' src={ski.icon} alt={ski.skillname}></img>
+        <Button id="skillbutton"><img className='skillimage' src={ski.icon} alt={ski.skillname}></img></Button>
         </div>
     );
 }
