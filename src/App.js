@@ -32,27 +32,27 @@ function App() {
     <div>
       <AppBar position="static">
         <Toolbar>
-        <Avatar alt="Remy Sharp" src="https://i.pinimg.com/564x/18/5f/f4/185ff44abd0f32015a6ed05d606f09d3.jpg" />
-          <Button color="inherit" onClick={() => navigate("/")}>
+        <Avatar alt="Chaithanya" src="https://www.freeiconspng.com/uploads/letter-c-icon-png-4.png" />
+          <Button id="navbutton"  color="inherit" onClick={() => navigate("/")}>
             Home
           </Button>
-          <Button color="inherit" onClick={() => navigate("/skills")}>
+          <Button id="navbutton"  color="inherit" onClick={() => navigate("/skills")}>
             Skills
           </Button>
-          <Button color="inherit" onClick={() => navigate("/projectworks")}>
+          <Button id="navbutton"  color="inherit" onClick={() => navigate("/projectworks")}>
             Projects
           </Button>
-          <Button color="inherit" onClick={() => navigate("/blog")}>
+          <Button id="navbutton" color="inherit" onClick={() => navigate("/blog")}>
             Blog
           </Button>
-          <Button color="inherit" onClick={() => navigate("/contactme")}>
+          <Button id="navbutton" color="inherit" onClick={() => navigate("/contactme")}>
             Contact me
           </Button>
-          <Button
-          style={{marginLeft:600}}
+          <Button id="navbutton" 
+          style={{marginLeft:"600px"}}
             color="inherit"
             onClick={() => setShow(show==="light"?  "dark":"light")}
-          >{show==="light"?  "dark":"light"} Mode 
+          >{show==="light"?  "dark":"light"} Mode
             {show=== 'light' ? <Brightness4Icon /> : <Brightness7Icon />}
           </Button>
         </Toolbar>

@@ -14,36 +14,38 @@ import { Routes, Route } from "react-router-dom";
 export function Contactme(){
     const Navigate = useNavigate();
     return(
-        <div>
+        <div id="ctm`">
            <h1 id="contact">Contact me</h1>
-            <div className='textfield'>
-            
+         
+        <div className='textfield'>
                 <TextField style={{width:500}} id="filled-basic" label="Enter your name" variant="filled" /><br></br><br></br>
                 <TextField style={{width:500}} id="filled-basic" label="Enter your email" variant="filled" /> <br></br><br></br>
                 <TextField style={{width:500}} id="filled-basic" label="Phone number" variant="filled" /><br></br><br></br>
                 <TextField style={{width:500}} id="filled-basic" label="Description" variant="filled" /><br></br><br></br>
                 <Button style={{width:500}}
                 onClick={()=>Navigate("/contactme")}
-                variant="contained" color="success" id="sub">Submit</Button>
+                variant="contained" color="primary" id="sub">Submit</Button>
             </div><br></br>
-        <Toolbar id="toolbar">
-          <Button id="button1" color="info" >
-          <FacebookIcon/>
+            <div >
+            <Toolbar id="toolbar">
+          <Button  id="wel" color="info" >
+          <FacebookIcon id="button1"/>
           </Button>
-          <Button id="button1" color="inherit">
-        <GitHubIcon />
+          <Button  id="wel" color="inherit">
+        <GitHubIcon id="button1" />
           </Button>
-          <Button id="button1" color="primary" >
-           <LinkedInIcon/>
+          <Button  id="wel" color="primary" >
+           <LinkedInIcon id="button1"/>
           </Button>
-          <Button id="button1" color="secondary" >
-            <InstagramIcon id="i1"/>
+          <Button  id="wel" color="secondary" >
+            <InstagramIcon  id="button1"/>
           </Button>
-          <Button id="button1" color="warning">
-            <EmailIcon/>
+          <Button id="wel" color="warning">
+            <EmailIcon id="button1"/>
           </Button>
         </Toolbar>
-       
+        </div>
+             
         </div>
     );
 }

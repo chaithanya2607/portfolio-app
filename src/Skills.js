@@ -1,9 +1,9 @@
 import './skill.css'
-import AutoFixHighIcon from '@mui/icons-material/AutoFixHigh';
+
 export function Skills(){
     return(
         <div className='skillset'>
-            <h1>SKILLS<span>   </span><AutoFixHighIcon/></h1>
+            <h1 id='skillh1'>SKILLS</h1>
             <div className='skillcards'>
             <Skillcard skillname="HTML" icon="https://cdn.icon-icons.com/icons2/1488/PNG/512/5352-html5_102567.png"/>
             <Skillcard skillname="CSS" icon="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"/>
@@ -21,7 +21,7 @@ function Skillcard(ski){
     return(
         <div id="box">
         <h3>{ski.skillname}</h3>
-        <img className='skillimage'  style={{width:100}}  src={ski.icon} alt={ski.skillname}></img>
+        <img className='skillimage' src={ski.icon} alt={ski.skillname}></img>
         </div>
     );
 }
