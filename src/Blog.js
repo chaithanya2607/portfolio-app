@@ -4,7 +4,7 @@ export function Blog(){
             <div>
                 <ul>
                     <li>
-                    <a  href="https://medium.com/@rchaithanyaraot/the-4-paths-of-yoga-ac18f39f31b3" target="_blank">BLOG-1</a>
+                    <a  href="https://medium.com/@rchaithanyaraot/animating-your-websites-with-animate-css-8d7ee83eb4c5" target="_blank">BLOG-1</a>
                     </li><br></br>
                     <li>
                     <a  href="https://medium.com/@rchaithanyaraot/the-4-paths-of-yoga-ac18f39f31b3">BLOG-2</a>
