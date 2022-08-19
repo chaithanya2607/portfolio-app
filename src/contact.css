@@ -1,5 +1,6 @@
 .textfield{
     margin-left:30%;
+    scroll-behavior: smooth;
 }
 #contact{
     margin-left:40%;
@@ -26,13 +27,13 @@
     height:50px;
 }
 #sub:hover{
- background-color: aqua;
+ background-color:#F8C8DC;
 }
 #ctm{
     display: flex;
     flex-direction: column;
 }
 #wel:hover{
-    background-image: radial-gradient(#00FF7F,#1F51FF);
+    background-image: radial-gradient(#F8C8DC,#AA336A);
    
 }
