@@ -6,6 +6,7 @@ import Toolbar from "@mui/material/Toolbar";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
+import { Link } from 'react-router-dom';
 
 export function Contactme(){
     const Navigate = useNavigate();
@@ -24,18 +25,16 @@ export function Contactme(){
             </form><br></br><br></br>
             <div >
             <Toolbar id="toolbar">
-          <Button  id="wel" color="inherit">
-        <GitHubIcon id="button1" />
+          <Button 
+         id="wel" color="inherit"><a href="https://github.com/chaithanya2607" target="_blank">
+        <GitHubIcon id="button1" /></a>
           </Button>
-          <Button  id="wel" color="inherit" >
-           <LinkedInIcon id="button1"/>
+          <Button  id="wel" color="inherit" ><a href="https://www.linkedin.com/in/chaithanya-r-b9b74712a/" target="_blank">
+           <LinkedInIcon id="button1"/></a>
           </Button>
-          <Button id="wel" color="inherit">
-            <EmailIcon id="button1"/>
-          </Button>
+          
         </Toolbar>
         </div>
-             
-        </div>
+  </div>
     );
 }

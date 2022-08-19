@@ -15,10 +15,10 @@
    
 }
 #button1{
-    margin-left:150px;
+    margin-left:200px;
     border-radius: 50%;
-    margin-right:150px;
-   
+    margin-right:200px;
+   color: white;
 }
 #button1:hover{
     font-size: 300%;
