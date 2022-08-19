@@ -1,19 +1,23 @@
 .textfield{
     margin-left:30%;
     scroll-behavior: smooth;
+    background-color: white;
+    width:39%;
+
 }
 #contact{
     margin-left:40%;
     font-family:Lucida;
+    color: white;
 }
 #toolbar{
     margin-left:150px;
    
 }
 #button1{
-    margin-left:100px;
+    margin-left:150px;
     border-radius: 50%;
-    margin-right:100px;
+    margin-right:150px;
    
 }
 #button1:hover{
@@ -36,4 +40,8 @@
 #wel:hover{
     background-image: radial-gradient(#F8C8DC,#AA336A);
    
+}
+#wel{color: white;}
+TextField{
+    backgroundColor:white;
 }

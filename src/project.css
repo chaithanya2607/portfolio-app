@@ -1,7 +1,5 @@
 #workproj{
    margin:50px;
-  
-  
 }
 #welcome{
     width:220px;
@@ -16,4 +14,7 @@ background-color: cyan;
 }
 #projbutton{
     background-color:#AA336A ;
+}
+p,h1{
+    color: white;
 }

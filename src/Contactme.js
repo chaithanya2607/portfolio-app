@@ -14,7 +14,7 @@ export function Contactme(){
            <h1 id="contact">Contact me</h1>
          
         <form className='textfield'>
-                <TextField style={{width:"500px"}} id="filled-basic" label="Enter your name" variant="filled" /><br></br>
+                <TextField style={{width:"500px",backgrounColor:"white"}} id="filled-basic" label="Enter your name" variant="filled" /><br></br>
                 <TextField style={{width:"500px"}} id="filled-basic" label="Enter your email" variant="filled" /> <br></br>
                 <TextField style={{width:"500px"}} id="filled-basic" label="Phone number" variant="filled" /><br></br>
                 <TextField style={{width:"500px"}} id="filled-basic" label="Description" variant="filled" /><br></br><br></br>

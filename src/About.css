@@ -8,17 +8,19 @@
 #h1{
     margin-left:40%;
     font-family: monospace;
+    color: white;
 }
 #h2{
     font-weight: 200;
     font-style: italic;
-    font-family: Lucida;
+    font-family: 'Courier ';
     word-spacing: 10px;
     justify-content: justify;
     line-height: 150%;
     margin:40px;
+    color: white;
 }
 #home{
     scroll-behavior: smooth;
-    background-color: #F8C8DC;
+   
 }

@@ -18,7 +18,7 @@ function App() {
     <div className="mainpage">
       <AppBar position="static" style={{backgroundColor:"#AA336A",height:"70px"}}>
         <Toolbar>
-        <Avatar alt="Chaithanya" src="C:\Users\rchai\OneDrive\Desktop\react\portfolio-app\src\IMG_20191209_022434_834.jpg" />
+        <Avatar alt="Chaithanya" src="https://www.kindpng.com/picc/m/110-1104699_woman-clipart-images-png-cartoon-business-woman-transparent.png" />
           <Button id="navbutton"  color="inherit" onClick={() => navigate("/")}>
             Home
           </Button>
